@@ -5,7 +5,7 @@ import HelloWorld from '../HelloWorld.vue'
 
 describe('HelloWorld', () => {
   it('renders properly', () => {
-    const wrapper = mount(HelloWorld, { props: { msg: 'Hello4 Vitest' } })
-    expect(wrapper.text()).toContain('Hello4 Vitest')
+    const wrapper = mount(HelloWorld, { props: { msg: 'Hello5 Vitest' } })
+    expect(wrapper.text()).toContain('Hello5 Vitest')
   })
 })
