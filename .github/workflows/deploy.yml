@@ -21,7 +21,7 @@ jobs:
       # 快取 pnpm store
       - name: Get pnpm store directory
         id: pnpm-cache-dir
-        run: echo "pnpm_cache_dir=$(pnpm store path)" >> $GITEA_ENV
+        run: echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_ENV
 
       - name: Cache pnpm
         uses: actions/cache@v4
